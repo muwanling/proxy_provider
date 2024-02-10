@@ -17,23 +17,17 @@ p: &p
 use: &use
   type: select
   use:
-  - 八戒
-  - 倾城 #机场名
+  - 机场1 #机场名
   # - 机场2 #机场名
 
 
 # 代理提供(订阅)组
 #添加/修改机场(名)请保证proxy-providers名称和proxy-groups同步添加/修改
 proxy-providers:
-  八戒: #机场名
+  机场1: #机场名
     <<: *p
-    url: "https://bajie.pro/api/v1/client/subscribe?token=192d02c0cba5fce544a861992acb60ba"
-    path: ./proxy_providers/bajie.yaml #保存路径
-
-  倾城: #机场名
-    <<: *p
-    url: "https://a.qcsub.top/api/v1/client/subscribe?token=07fe718c04377c2d9e7cb85762446c8a"
-    path: ./proxy_providers/qingcheng.yaml #保存路径
+    url: "这里填机场订阅"
+    path: ./proxy_providers/jichang1.yaml #保存路径
 
   # 机场2: #机场名
     # <<: *p
