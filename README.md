@@ -6,3 +6,5 @@
 https://raw.githubusercontent.com/lingziely/proxy_provider/main/proxy_provider
 ```
 2.在订阅列表中找到proxy_provider并编辑文件（文件中有注释）
+## 注意
+更新代理组别更新订阅
