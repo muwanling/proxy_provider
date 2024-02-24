@@ -19,10 +19,9 @@ p: &p
 # 代理提供(订阅)组
 proxy-providers:
 
-  # 机场: #机场名
-    # <<: *p
-    # url: "这里填机场订阅"
-    # path: ./proxy_providers/jichang2.yaml #保存路径
+  机场: #机场名
+    <<: *p
+    url: "这里填机场订阅"
 
 # 代理组
 proxy-groups:
