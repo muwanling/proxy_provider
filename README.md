@@ -6,7 +6,7 @@
 ### clash verge
 填入以下订阅链接
 ```
-https://raw.githubusercontent.com/lingziely/proxy_provider/main/proxy_provider
+https://raw.githubusercontent.com/lingziely/proxy_provider/main/proxy_providers
 ```
 然后在订阅列表中选择proxy-providers进行编辑
 # 注意
